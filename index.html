@@ -1,43 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="main"> 
-        <div class="info-container">
-            <div class="info-header">
-                <ul class="tabs">
-                    <li data-tab-target="#tab1" class="active tab"></li>
-                    <li data-tab-target="#tab2" class="tab"></li>
-                    <li data-tab-target="#tab3" class="tab"></li>
-                </ul>
-                <div id="currentTime" class="time">
-                    :)
-                </div>
-        
-            </div>  
-            <div class="info-area">
-                <div id="tab1" data-tab-content class="info-content active">
-                    <div class="content">1</div>
-                </div>
 
-                <div id="tab2" data-tab-content class="info-content">
-                    <div class="content">2</div>
-                </div>
-
-                <div id="tab3" data-tab-content class="info-content">
-                    <div class="content">3</div>
-                </div>
-            </div>
+    <div class="center-everything">
+        <div class="datetime-container">
+            <div class="date"></div>
+            <div id="time" class="time"></div>
         </div>
-        <div class="url-container">             
-            <div class="urls">
+        <div class="main">
+            <div class="img-container">
+                <img src="/assets/1659558743164914.jpg" alt="nature">
+            </div>
+            <div class="url-container">
+                <div class="urls">
                     <table>
                         <tr>
                             <th>vidya</th>
@@ -46,26 +34,38 @@
                             <th>boards</th>
                         </tr>
                         <tr>
-                            <td>youtube</td>
-                            <td>netflix</td>
-                            <td>prime</td>
-                            <td>hulu</td>
+                            <td><a href="https://www.youtube.com">youtube</a></td>
+                            <td><a href="https://www.instagram.com">insta</a></td>
+                            <td><a href="https://www.github.com">github</a></td>
+                            <td><a href="https://boards.4channel.org/g/catalog">/g/</a></td>
+
+
                         </tr>
                         <tr>
-                            <td>github</td>
-                            <td>notion</td>
-                            <td>fcc</td>
-                            <td>codewars</td>
+                            <td><a href="https://www.hulu.com">hulu</a></td>
+                            <td><a href="https://www.twitter.com">twitter</a></td>
+                            <td><a href="https://www.pastebin.com">pastebin</a></td>
+                            <td><a href="https://www.lainchan.org/%CE%BB/catalog.html">/λ/</a></td>
+
                         </tr>
                         <tr>
-                            <td>/g/</td>
-                            <td>/λ/</td>
-                            <td>/prog/</td>
-                            <td>/tv/</td>
+                            <td><a href="https://www.play.hbomax.com">hbo max</a></td>
+                            <td><a href="https://www.dev.to">dev.to</a></td>
+                            <td><a href="https://www.udemy.com">udemy</a></td>
+                            <td><a href="https://boards.420chan.org/prog/">/prog/</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.netflix.com">netflix</a></td>
+                            <td><a href="https://www.linked.in">linkedin</a></td>
+                            <td><a href="https://www.codewars.com">codewars</a></td>
+                            <td><a href="https://boards.4channel.org/tv/catalog">/tv/</a></td>
                         </tr>
                     </table>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
+
 </html>
